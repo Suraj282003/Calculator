@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: 5px 3px 5px #2e2929;
+}
+.mx-auto{
+  margin: auto;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col{
+  flex-direction: column;
+}
+@media screen and(max-width: 1024px){
+  .container{
+    width: auto;
+    
+  }
+}
